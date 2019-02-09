@@ -28,13 +28,13 @@ export default class ResponseScreen extends React.Component {
     }
 
     componentDidMount() {
-        return fetch('https://facebook.github.io/react-native/movies.json')
-            .then((response) => response.json())
+        return fetch('https://roads.googleapis.com/v1/speedLimits?path=38.75807927603043,-9.03741754643809|38.6896537,-9.1770515|41.1399289,-8.6094075&key=AIzaSyDPiuwrlQuia0JYjY6Ct7jmSfX_a1P4IJs')
+            .then((response) => console.log(response))
             .then((responseJson) => {
 
                 this.setState({
                     isLoading: false,
-                    dataSource: responseJson.movies,
+                    dataSource: responseJson,
                 }, function () {
 
                 });
