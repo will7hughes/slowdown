@@ -1,0 +1,206 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
+MERGED from [com.facebook.react:react-native:0.58.4] /Users/Dino/.gradle/caches/transforms-1/files-1.1/react-native-0.58.4.aar/f3d54bcc9eb45d7e2c13be007d4d57fc/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5b75da5e020bae792a1bedc98dfac6bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f059bf630f0703fc4ee269fb956dcd84/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/7987d6e267e5ad39196396822783ec9e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/76bade60f55095960afa43f37a5c3495/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4364f35f0a0445c0fa138bd2a058043c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f98ec72d7d0c25c99482be4647785409/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5e2e0cb7fba682dc3ad081e0a7978586/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0c58b466faaf2c4098cd3727bbded189/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/dc9564f6d024b701bde3dcd911ccfdb9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8b0a378f985f3480d2534bb6a41c5d0b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/6e345b51996b89f88604cebe7490285d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e7d9dd09894e83a60dcfbc7065952244/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a47ccba35130bdf716d2174ed13933f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d95f4379a2e186ac88ff15e027776f44/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/621878ad33e9fef3cf68175fc03ddd5c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f891a29c330f1c7aa39ed9780c6b050a/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/88f45a905a9c10b904487ac3f13a5e92/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cbc7b539cd89ab4a0bd3aba19dd529ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/48f6c08b98757688260e99db5bdf3845/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/1b934458022023e1edc48d6307bdfbfd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/51ae807d7347887ed7c47d91534e0674/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9267a579567757bb72d8feb792904d3d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c2fd92ab85c766cd3fd49aa0079fa634/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/cd779b6e82c30baa8cf04c397cabff62/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/829e6bb717157e459ee7cb39b00db431/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/5bc4c67388918d7cfcc32dd0525001e8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/7a9669a028a23c98c3d8cdd98c81d532/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/af06c826f5067b29e62cfb5300aa9478/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/d052798d2f5b1ae439e7c636196aa0f3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/7b33bd1ddf998a2227fb685f860f1e31/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/ce473a907c0932b7c2775fac78ac563b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/043c2c2dc51903e8070edffa0631ab79/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/Dino/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/a250bc07f6bebd87aaf8b6a1c62aec22/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/519b87b0817ead1377054a47633c4458/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
+	package
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:2:5-27
+		INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
+		INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.58.4] /Users/Dino/.gradle/caches/transforms-1/files-1.1/react-native-0.58.4.aar/f3d54bcc9eb45d7e2c13be007d4d57fc/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.58.4] /Users/Dino/.gradle/caches/transforms-1/files-1.1/react-native-0.58.4.aar/f3d54bcc9eb45d7e2c13be007d4d57fc/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from [com.facebook.react:react-native:0.58.4] /Users/Dino/.gradle/caches/transforms-1/files-1.1/react-native-0.58.4.aar/f3d54bcc9eb45d7e2c13be007d4d57fc/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.58.4] /Users/Dino/.gradle/caches/transforms-1/files-1.1/react-native-0.58.4.aar/f3d54bcc9eb45d7e2c13be007d4d57fc/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/621878ad33e9fef3cf68175fc03ddd5c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/621878ad33e9fef3cf68175fc03ddd5c/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f891a29c330f1c7aa39ed9780c6b050a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f891a29c330f1c7aa39ed9780c6b050a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/043c2c2dc51903e8070edffa0631ab79/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/043c2c2dc51903e8070edffa0631ab79/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/Dino/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/a250bc07f6bebd87aaf8b6a1c62aec22/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/Dino/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/a250bc07f6bebd87aaf8b6a1c62aec22/AndroidManifest.xml:2:3-17
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/621878ad33e9fef3cf68175fc03ddd5c/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:roundIcon
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:11:7-52
+	android:icon
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:12:7-34
+	android:theme
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:13:7-38
+	android:name
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.slowdown.MainActivity
+ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:14:7-23:18
+	android:label
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:16:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:18:9-51
+	android:configChanges
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:17:9-79
+	android:name
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:15:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:19:9-22:25
+action#android.intent.action.MAIN
+ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:20:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:21:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:24:7-84
+	android:name
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:24:17-81
+uses-sdk
+INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.react:react-native:0.58.4] /Users/Dino/.gradle/caches/transforms-1/files-1.1/react-native-0.58.4.aar/f3d54bcc9eb45d7e2c13be007d4d57fc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.58.4] /Users/Dino/.gradle/caches/transforms-1/files-1.1/react-native-0.58.4.aar/f3d54bcc9eb45d7e2c13be007d4d57fc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5b75da5e020bae792a1bedc98dfac6bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5b75da5e020bae792a1bedc98dfac6bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f059bf630f0703fc4ee269fb956dcd84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f059bf630f0703fc4ee269fb956dcd84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/7987d6e267e5ad39196396822783ec9e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/7987d6e267e5ad39196396822783ec9e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/76bade60f55095960afa43f37a5c3495/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/76bade60f55095960afa43f37a5c3495/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4364f35f0a0445c0fa138bd2a058043c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/4364f35f0a0445c0fa138bd2a058043c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f98ec72d7d0c25c99482be4647785409/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f98ec72d7d0c25c99482be4647785409/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5e2e0cb7fba682dc3ad081e0a7978586/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/5e2e0cb7fba682dc3ad081e0a7978586/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0c58b466faaf2c4098cd3727bbded189/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0c58b466faaf2c4098cd3727bbded189/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/dc9564f6d024b701bde3dcd911ccfdb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/dc9564f6d024b701bde3dcd911ccfdb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8b0a378f985f3480d2534bb6a41c5d0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8b0a378f985f3480d2534bb6a41c5d0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/6e345b51996b89f88604cebe7490285d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/6e345b51996b89f88604cebe7490285d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e7d9dd09894e83a60dcfbc7065952244/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/e7d9dd09894e83a60dcfbc7065952244/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a47ccba35130bdf716d2174ed13933f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a47ccba35130bdf716d2174ed13933f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d95f4379a2e186ac88ff15e027776f44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d95f4379a2e186ac88ff15e027776f44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/621878ad33e9fef3cf68175fc03ddd5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/621878ad33e9fef3cf68175fc03ddd5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f891a29c330f1c7aa39ed9780c6b050a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f891a29c330f1c7aa39ed9780c6b050a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/88f45a905a9c10b904487ac3f13a5e92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/88f45a905a9c10b904487ac3f13a5e92/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cbc7b539cd89ab4a0bd3aba19dd529ff/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cbc7b539cd89ab4a0bd3aba19dd529ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/48f6c08b98757688260e99db5bdf3845/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/48f6c08b98757688260e99db5bdf3845/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/1b934458022023e1edc48d6307bdfbfd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/1b934458022023e1edc48d6307bdfbfd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/51ae807d7347887ed7c47d91534e0674/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/51ae807d7347887ed7c47d91534e0674/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9267a579567757bb72d8feb792904d3d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9267a579567757bb72d8feb792904d3d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c2fd92ab85c766cd3fd49aa0079fa634/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c2fd92ab85c766cd3fd49aa0079fa634/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/cd779b6e82c30baa8cf04c397cabff62/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/cd779b6e82c30baa8cf04c397cabff62/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/829e6bb717157e459ee7cb39b00db431/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Dino/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/829e6bb717157e459ee7cb39b00db431/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/5bc4c67388918d7cfcc32dd0525001e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/5bc4c67388918d7cfcc32dd0525001e8/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/7a9669a028a23c98c3d8cdd98c81d532/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/7a9669a028a23c98c3d8cdd98c81d532/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/af06c826f5067b29e62cfb5300aa9478/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/af06c826f5067b29e62cfb5300aa9478/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/d052798d2f5b1ae439e7c636196aa0f3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/d052798d2f5b1ae439e7c636196aa0f3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/7b33bd1ddf998a2227fb685f860f1e31/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/7b33bd1ddf998a2227fb685f860f1e31/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/ce473a907c0932b7c2775fac78ac563b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/ce473a907c0932b7c2775fac78ac563b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/043c2c2dc51903e8070edffa0631ab79/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/043c2c2dc51903e8070edffa0631ab79/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/519b87b0817ead1377054a47633c4458/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/Dino/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/519b87b0817ead1377054a47633c4458/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
