@@ -34,7 +34,7 @@ export default class ResponseScreen extends React.Component {
 
                 this.setState({
                     isLoading: false,
-                    dataSource: responseJson.movies,
+                    dataSource: responseJson,
                 }, function () {
 
                 });
