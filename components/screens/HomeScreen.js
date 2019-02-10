@@ -14,6 +14,7 @@ import {
     StyleSheet,
     TouchableOpacity,
     AsyncStorage,
+    Alert
 } from 'react-native';
 
 import {
@@ -70,11 +71,11 @@ export default class HomeScreen extends Component {
 
                 let currentDistance = this.calculateDistance(prevPos.latitude, prevPos.longitude, toPos.latitude, toPos.longitude, "K");
 
-                // console.log("prevPos.lat: " + prevPos.latitude);
-                // console.log("prevPos.long: " + prevPos.longitude);
-                // console.log("toPos.lat: " + toPos.latitude);
-                // console.log("toPos.long: " + toPos.longitude);
-                // console.log("totalDist: " + totalDistance);
+                console.log("prevPos.lat: " + prevPos.latitude);
+                console.log("prevPos.long: " + prevPos.longitude);
+                console.log("toPos.lat: " + toPos.latitude);
+                console.log("toPos.long: " + toPos.longitude);
+                console.log("totalDist: " + totalDistance);
 
                 // console.log(response);
 
@@ -88,6 +89,14 @@ export default class HomeScreen extends Component {
                 let totalDistance = this.state.totalDistance + currentDistance;
                 let totalDuration = this.state.totalDuration + (1 / 3600);
                 let averageSpeed = totalDistance / totalDuration;
+
+                if (averageSpeed >= this.state.speedLimit) {
+                    Alert("Slow Down");
+                }
+
+                if (toPos.latitude > 10) {
+                    this.setState({ speedLimit: 35 });
+                }
 
                 this.setState({
                     speed: speed,
@@ -173,11 +182,11 @@ export default class HomeScreen extends Component {
                     }}>
                     <Text style={styles.buttonText}>Set speed limit to 65</Text>
                 </TouchableOpacity>
-                <Text>SPEED: {this.state.speed}</Text>
-                <Text>AVG SPEED: {this.state.averageSpeed}</Text>
-                <Text>Lati: {this.state.previousPosition.latitude}</Text>
-                <Text>Long: {this.state.previousPosition.longitude}</Text>
-                <Text>TotalDistance: {this.state.totalDistance}</Text>
+                <Text style={styles.stats}>SPEED: {this.state.speed}</Text>
+                <Text style={styles.stats}>AVERAGE SPEED: {this.state.averageSpeed}</Text>
+                <Text style={styles.stats}>LATITUDE: {this.state.previousPosition.latitude}</Text>
+                <Text style={styles.stats}>LONGITUDE: {this.state.previousPosition.longitude}</Text>
+                <Text style={styles.stats}>TOTAL DISTANCE: {this.state.totalDistance}</Text>
             </SafeAreaView>
         );
     }
@@ -189,13 +198,13 @@ const styles = StyleSheet.create({
         backgroundColor: 'white'
     },
     headerView: {
-        height: 65,
+        height: 80,
         backgroundColor: "#092E99",
         justifyContent: 'center',
         color: 'white'
     },
     headerText: {
-        fontSize: 30,
+        fontSize: 42,
         color: 'white',
         fontWeight: 'bold',
         textAlign: 'center'
@@ -207,12 +216,12 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         textAlign: 'center',
-        fontSize: 40,
+        fontSize: 32,
         color: 'white'
     },
     button: {
-        height: 100,
-        backgroundColor: "#092E99",
+        height: 80,
+        backgroundColor: "#178711",
         justifyContent: 'center',
         fontWeight: 'bold',
         borderBottomWidth: 1,
@@ -220,8 +229,11 @@ const styles = StyleSheet.create({
     },
     speedLimitText: {
         textAlign: 'center',
-        height: 50,
+        height: 60,
         backgroundColor: 'white',
-        fontSize: 32,
+        fontSize: 45,
+    },
+    stats: {
+        fontSize: 24
     }
 });
