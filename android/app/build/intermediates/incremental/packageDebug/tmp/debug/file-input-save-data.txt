@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Feb 09 13:54:03 CST 2019
+#Sat Feb 09 17:22:50 CST 2019
 56.path=lib/x86_64/libglog.so
 5.base=/Users/Dino/Documents/Projects/slowdown/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 42.base=/Users/Dino/Documents/Projects/slowdown/android/app/build/intermediates/transforms/mergeJniLibs/debug/0

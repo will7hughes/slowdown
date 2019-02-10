@@ -22,6 +22,11 @@ import {
     SafeAreaView,
 } from 'react-navigation'; // 3.0.9
 
+import { accelerometer } from "react-native-sensors";
+
+const subscription = accelerometer.subscribe(({ x, y, z, timestamp }) =>
+    console.log({ x, y, z, timestamp })
+);
 
 export default class HomeScreen extends Component {
     constructor(props) {
