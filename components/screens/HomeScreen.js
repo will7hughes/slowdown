@@ -71,11 +71,11 @@ export default class HomeScreen extends Component {
 
                 let currentDistance = this.calculateDistance(prevPos.latitude, prevPos.longitude, toPos.latitude, toPos.longitude, "K");
 
-                console.log("prevPos.lat: " + prevPos.latitude);
-                console.log("prevPos.long: " + prevPos.longitude);
-                console.log("toPos.lat: " + toPos.latitude);
-                console.log("toPos.long: " + toPos.longitude);
-                console.log("totalDist: " + totalDistance);
+                // console.log("prevPos.lat: " + prevPos.latitude);
+                // console.log("prevPos.long: " + prevPos.longitude);
+                // console.log("toPos.lat: " + toPos.latitude);
+                // console.log("toPos.long: " + toPos.longitude);
+                // console.log("totalDist: " + totalDistance);
 
                 // console.log(response);
 
@@ -152,7 +152,7 @@ export default class HomeScreen extends Component {
                 <View style={styles.headerView}>
                     <Text style={styles.headerText}>Slow Down Demo</Text>
                 </View>
-                {/* <Button title="Go to Response Screen" onPress={() => { this.props.navigation.navigate("Response") }} /> */}
+                <Button title="Go to Response Screen" onPress={() => { this.props.navigation.navigate("Response") }} />
 
                 <Text style={styles.speedLimitText}>Speed Limit: {this.state.speedLimit} mph</Text>
                 <TouchableOpacity

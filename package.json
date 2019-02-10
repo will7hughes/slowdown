@@ -7,6 +7,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "flask": "^0.2.10",
     "react": "16.6.3",
     "react-native": "0.58.4",
     "react-native-gesture-handler": "^1.0.15",
@@ -23,5 +25,6 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "proxy": "http://127.0.0.1:5000/"
 }

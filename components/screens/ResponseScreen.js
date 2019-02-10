@@ -17,6 +17,7 @@ import {
 import { SafeAreaView } from 'react-navigation';
 
 import BackButton from '../BackButton.js';
+const axios = require('axios');
 
 export default class ResponseScreen extends React.Component {
     // Called before componentDidMount
@@ -24,25 +25,46 @@ export default class ResponseScreen extends React.Component {
         super(props)
         this.state = {
             isLoading: true,
+            dataSource: null
         }
     }
-
+    // http://127.0.0.1:5000/
     componentDidMount() {
-        return fetch('https://roads.googleapis.com/v1/speedLimits?path=38.75807927603043,-9.03741754643809|38.6896537,-9.1770515|41.1399289,-8.6094075&key=AIzaSyDPiuwrlQuia0JYjY6Ct7jmSfX_a1P4IJs')
-            .then((response) => console.log(response))
-            .then((responseJson) => {
-
-                this.setState({
-                    isLoading: false,
-                    dataSource: responseJson,
-                }, function () {
-
-                });
-
+        axios.get(`http://10.0.2.2:5000/`)
+            .then(res => {
+                const source = res.data;
+                console.log(source);
+                this.setState({ isLoading: false });
             })
-            .catch((error) => {
-                console.error(error);
-            });
+        // function getGithubData() {
+        //     axios.get('http://127.0.0.1:5000/')
+        //         .then(res => {
+        //             console.log(res.data);
+        //             this.setState({
+        //                 isLoading: false,
+        //             });
+        //         })
+        //         .catch(err => {
+        //             console.log(err);
+        //         });
+        // }
+
+        // getGithubData();
+        // return fetch('http://127.0.0.1:5000/')
+        //     .then((response) => response.json())
+        //     .then((responseJson) => {
+
+        //         this.setState({
+        //             isLoading: false,
+        //             dataSource: responseJson,
+        //         }, function () {
+
+        //         });
+
+        //     })
+        //     .catch((error) => {
+        //         console.error(error);
+        //     });
     }
     static navigationOptions = {
         header: null
@@ -62,6 +84,7 @@ export default class ResponseScreen extends React.Component {
                 <View style={styles.headerView}>
                     <BackButton navigation={this.props.navigation} />
                     <Text style={styles.headerText}>Response</Text>
+                    <Text>{this.state.dataSource}</Text>
                 </View>
             </SafeAreaView >
         );
