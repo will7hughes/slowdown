@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Sat Feb 09 20:17:39 CST 2019
-=======
-#Sat Feb 09 17:22:49 CST 2019
->>>>>>> d3af2047ee3d3b85daa0750d6bc2248363961a77
+#Sun Feb 10 00:02:19 CST 2019
 base.0=/Users/Dino/Documents/Projects/slowdown/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

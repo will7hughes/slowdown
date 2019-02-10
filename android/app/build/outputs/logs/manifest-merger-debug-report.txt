@@ -1,17 +1,10 @@
 -- Merging decision tree log ---
 manifest
-<<<<<<< HEAD
 ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-29:12
 INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-29:12
 INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-29:12
 INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-29:12
-=======
-ADDED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/Dino/Documents/Projects/slowdown/android/app/src/main/AndroidManifest.xml:1:1-27:12
 MERGED from [:react-native-sensors] /Users/Dino/Documents/Projects/slowdown/node_modules/react-native-sensors/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
->>>>>>> d3af2047ee3d3b85daa0750d6bc2248363961a77
 MERGED from [:react-native-vector-icons] /Users/Dino/Documents/Projects/slowdown/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /Users/Dino/Documents/Projects/slowdown/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.58.4] /Users/Dino/.gradle/caches/transforms-1/files-1.1/react-native-0.58.4.aar/f3d54bcc9eb45d7e2c13be007d4d57fc/AndroidManifest.xml:2:1-15:12
