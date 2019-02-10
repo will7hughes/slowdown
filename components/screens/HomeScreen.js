@@ -24,15 +24,25 @@ import {
 
 import { accelerometer } from "react-native-sensors";
 
-const subscription = accelerometer.subscribe(({ x, y, z, timestamp }) =>
-    console.log({ x, y, z, timestamp })
-);
+// const subscription = accelerometer.subscribe(({ x, y, z, timestamp }) =>
+//     console.log({ x, y, z, timestamp })
+// );
+// export default class SpeedButton extends Component {
+//     render() {
+//         return (
+//             <TouchableOpacity style={styles.button} onPress={() => { this.props.navigation.navigate('Sites') }} >
+//                 <Icon name="arrowleft" size={60} color="white" />
+//             </TouchableOpacity>
+//         );
+//     }
+// }
 
 export default class HomeScreen extends Component {
     constructor(props) {
         super(props)
 
         this.state = {
+            speedLimit: 35,
             speed: 0,
             averageSpeed: 0,
             previousPosition: {
@@ -131,9 +141,38 @@ export default class HomeScreen extends Component {
         return (
             <SafeAreaView style={styles.container}>
                 <View style={styles.headerView}>
-                    <Text style={styles.headerText}>Home</Text>
+                    <Text style={styles.headerText}>Slow Down Demo</Text>
                 </View>
-                <Button title="Go to Response Screen" onPress={() => { this.props.navigation.navigate("Response") }} />
+                {/* <Button title="Go to Response Screen" onPress={() => { this.props.navigation.navigate("Response") }} /> */}
+
+                <Text style={styles.speedLimitText}>Speed Limit: {this.state.speedLimit} mph</Text>
+                <TouchableOpacity
+                    style={styles.button}
+                    onPress={() => {
+                        this.setState(() => ({
+                            speedLimit: 35
+                        }));
+                    }}>
+                    <Text style={styles.buttonText}>Set speed limit to 35</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    style={styles.button}
+                    onPress={() => {
+                        this.setState(() => ({
+                            speedLimit: 45
+                        }));
+                    }}>
+                    <Text style={styles.buttonText}>Set speed limit to 45</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    style={styles.button}
+                    onPress={() => {
+                        this.setState(() => ({
+                            speedLimit: 65
+                        }));
+                    }}>
+                    <Text style={styles.buttonText}>Set speed limit to 65</Text>
+                </TouchableOpacity>
                 <Text>SPEED: {this.state.speed}</Text>
                 <Text>AVG SPEED: {this.state.averageSpeed}</Text>
                 <Text>Lati: {this.state.previousPosition.latitude}</Text>
@@ -158,12 +197,31 @@ const styles = StyleSheet.create({
     headerText: {
         fontSize: 30,
         color: 'white',
-        paddingLeft: 40,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        textAlign: 'center'
     },
     siteItem: {
         fontSize: 32,
         backgroundColor: 'white',
         color: 'black'
+    },
+    buttonText: {
+        textAlign: 'center',
+        fontSize: 40,
+        color: 'white'
+    },
+    button: {
+        height: 100,
+        backgroundColor: "#092E99",
+        justifyContent: 'center',
+        fontWeight: 'bold',
+        borderBottomWidth: 1,
+        borderColor: 'white'
+    },
+    speedLimitText: {
+        textAlign: 'center',
+        height: 50,
+        backgroundColor: 'white',
+        fontSize: 32,
     }
 });
